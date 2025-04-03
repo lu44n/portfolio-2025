@@ -17,6 +17,10 @@ export default {
         "orange-gradient": "linear-gradient(to right, #FF8660, #D5491D)",
         "blue-gradient": "linear-gradient(to right, #5BADFF, #1373D1)",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        jakarta: ['"Plus Jakarta Sans"', "sans-serif"],
+      },
     },
   },
   plugins: [],
