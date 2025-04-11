@@ -1,22 +1,22 @@
-import logo from "../assets/logo.png";
+import logo from '../assets/logo.png'
 
 export function Navbar() {
   return (
-    <header className="fixed top-0 left-0 right-0 w-full bg-gray-light flex flex-row justify-between items-center px-60 py-2 font-jakarta z-50">
+    <header className="fixed left-0 right-0 top-0 z-50 flex w-full flex-row items-center justify-between bg-gray-light px-60 py-2 font-jakarta">
       <img src={logo} alt="Logo" draggable="false" className="h-16 w-16" />
 
-      <div className="flex flex-row gap-24">
-        <p className="text-white font-light text-md cursor-pointer hover:bg-primary-gradient hover:bg-clip-text hover:text-transparent">
+      <div className="flex flex-row gap-20">
+        <p className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-primary-gradient hover:bg-clip-text hover:text-transparent">
           Home
         </p>
-        <p className="text-white font-light text-md cursor-pointer hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent">
+        <p className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent">
           Projects
         </p>
-        <p className="text-white font-light text-md cursor-pointer hover:bg-blue-gradient hover:bg-clip-text hover:text-transparent">
+        <p className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-blue-gradient hover:bg-clip-text hover:text-transparent">
           Experience
         </p>
-        <p className="text-white font-light text-md cursor-pointer">Contact</p>
+        <p className="text-md cursor-pointer font-light text-white">Contact</p>
       </div>
     </header>
-  );
+  )
 }
