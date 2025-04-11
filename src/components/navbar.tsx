@@ -6,15 +6,24 @@ export function Navbar() {
       <img src={logo} alt="Logo" draggable="false" className="h-16 w-16" />
 
       <div className="flex flex-row gap-20">
-        <p className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-primary-gradient hover:bg-clip-text hover:text-transparent">
+        <a
+          className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-primary-gradient hover:bg-clip-text hover:text-transparent"
+          href="#home"
+        >
           Home
-        </p>
-        <p className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent">
+        </a>
+        <a
+          className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent"
+          href="#projects"
+        >
           Projects
-        </p>
-        <p className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-blue-gradient hover:bg-clip-text hover:text-transparent">
+        </a>
+        <a
+          className="text-md cursor-pointer font-light text-white transition-colors duration-300 hover:bg-blue-gradient hover:bg-clip-text hover:text-transparent"
+          href="#experience"
+        >
           Experience
-        </p>
+        </a>
         <p className="text-md cursor-pointer font-light text-white">Contact</p>
       </div>
     </header>
