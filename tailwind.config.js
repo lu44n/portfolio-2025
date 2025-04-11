@@ -10,6 +10,7 @@ export default {
           light: "#222222",
           softlight: "#2A2A2A",
           lighter: "#8491A0",
+          lightest: "C5C5C5",
         },
       },
       backgroundImage: {
