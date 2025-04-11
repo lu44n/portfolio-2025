@@ -5,11 +5,11 @@ export default {
     extend: {
       colors: {
         gray: {
-          dark: "161513",
+          dark: "#161513",
           softdark: "#191919",
-          light: "222222",
-          softlight: "2A2A2A",
-          lighter: "8491A0",
+          light: "#222222",
+          softlight: "#2A2A2A",
+          lighter: "#8491A0",
         },
       },
       backgroundImage: {
