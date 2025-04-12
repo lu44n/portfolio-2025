@@ -1,7 +1,7 @@
 import email_icon from '../assets/icons/email.svg'
 import linkedin_icon from '../assets/icons/linkedin.svg'
 import instagram_icon from '../assets/icons/instagram.svg'
-import x_icon from '../assets/icons/x.svg'
+import github_icon from '../assets/icons/github.svg'
 
 export function Footer() {
   return (
@@ -33,8 +33,8 @@ export function Footer() {
           <a href="https://www.instagram.com/lmikael_">
             <img src={instagram_icon} alt="LinkedIn" className="h-7 w-7" />
           </a>
-          <a href="">
-            <img src={x_icon} alt="X" className="h-7 w-7" />
+          <a href="https://www.github.com/lu44n">
+            <img src={github_icon} alt="GitHub" className="h-7 w-7" />
           </a>
         </div>
       </div>
