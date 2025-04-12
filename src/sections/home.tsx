@@ -1,12 +1,16 @@
 import memoji from '../assets/images/memoji.png'
+import js_icon from '../assets/icons/javascript.svg'
+import ts_icon from '../assets/icons/typescript.svg'
+import node_icon from '../assets/icons/nodejs.svg'
+import react_icon from '../assets/icons/react.svg'
+import tailwind_icon from '../assets/icons/tailwind.svg'
+import html_icon from '../assets/icons/html.svg'
+import css_icon from '../assets/icons/css.svg'
 import { Typewriter } from 'react-simple-typewriter'
 
 export function About() {
   return (
-    <div
-      className="flex h-full w-full flex-col items-center justify-center gap-14"
-      id="home"
-    >
+    <div className="flex h-full w-full flex-col items-center justify-center gap-12 pt-16">
       <img
         src={memoji}
         draggable="false"
@@ -54,6 +58,22 @@ export function About() {
         >
           Download CV
         </a>
+      </div>
+
+      <div className="flex w-full flex-col items-center justify-center gap-12">
+        <p className="text-gray-lightest text-xl font-semibold">
+          EXPERIENCE WITH
+        </p>
+
+        <div className="flex flex-row gap-12">
+          <img src={html_icon} alt="HTML" className="h-12 w-12" />
+          <img src={css_icon} alt="CSS" className="h-12 w-12" />
+          <img src={js_icon} alt="JS" className="h-12 w-12" />
+          <img src={ts_icon} alt="TS" className="h-12 w-12" />
+          <img src={node_icon} alt="Node" className="h-12 w-12" />
+          <img src={react_icon} alt="React" className="h-12 w-12" />
+          <img src={tailwind_icon} alt="Tailwind" className="h-12 w-12" />
+        </div>
       </div>
     </div>
   )
