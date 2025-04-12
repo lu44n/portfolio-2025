@@ -24,7 +24,12 @@ export function Navbar() {
         >
           Experience
         </a>
-        <p className="text-md cursor-pointer font-light text-white">Contact</p>
+        <a
+          className="text-md cursor-pointer font-light text-white"
+          href="#contact"
+        >
+          Contact
+        </a>
       </div>
     </header>
   )
