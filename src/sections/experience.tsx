@@ -13,6 +13,7 @@ export function Experience() {
               src={inovv_logo}
               alt="INOVV"
               className="h-11 w-11 rounded-lg"
+              draggable="false"
             />
             <p className="text-2xl font-bold text-white">
               Front-End Developer at INOVV
