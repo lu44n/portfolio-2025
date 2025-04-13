@@ -27,13 +27,25 @@ export function Footer() {
           </p>
         </div>
         <div className="flex flex-row gap-5">
-          <a href="https://www.linkedin.com/in/mikaelmartinsdev/">
+          <a
+            href="https://www.linkedin.com/in/mikaelmartinsdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={linkedin_icon} alt="LinkedIn" className="h-7 w-7" />
           </a>
-          <a href="https://www.instagram.com/lmikael_">
+          <a
+            href="https://www.instagram.com/lmikael_"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={instagram_icon} alt="LinkedIn" className="h-7 w-7" />
           </a>
-          <a href="https://www.github.com/lu44n">
+          <a
+            href="https://www.github.com/lu44n"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={github_icon} alt="GitHub" className="h-7 w-7" />
           </a>
         </div>
