@@ -18,7 +18,7 @@ function App() {
         <section className="w-full scroll-mt-20" id="projects">
           <Projects />
         </section>
-        <section className="w-full scroll-mt-24" id="experience">
+        <section className="w-full scroll-mt-28" id="experience">
           <Experience />
         </section>
       </main>
