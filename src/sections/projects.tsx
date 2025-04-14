@@ -4,7 +4,7 @@ import view_arrow from '../assets/icons/view.svg'
 
 export function Projects() {
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-8 pb-16 pt-8">
+    <div className="flex w-full flex-col items-center justify-center gap-8 pb-24 pt-8">
       <h2 className="bg-orange-gradient bg-clip-text text-3xl font-extrabold text-transparent">
         PROJECTS
       </h2>
