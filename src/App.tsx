@@ -15,10 +15,10 @@ function App() {
         >
           <About />
         </section>
-        <section className="w-full scroll-mt-24" id="projects">
+        <section className="w-full scroll-mt-20" id="projects">
           <Projects />
         </section>
-        <section className="w-full" id="experience">
+        <section className="w-full scroll-mt-24" id="experience">
           <Experience />
         </section>
       </main>
